@@ -269,6 +269,14 @@ $ git rebase -i <HASH>
 # edit your commit message and enjoy your brand new commit!
 ~~~
 
+### Stash only staged changes
+
+(Available since Git 2.35)
+
+~~~bash
+git stash push -S
+~~~
+
 ## Contribute!
 
 If you have commands, tips, suggestions or improvements that could make the cheatsheet richer or if you see something 
